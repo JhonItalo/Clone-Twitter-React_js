@@ -1,0 +1,48 @@
+.acontecimentos{
+    width: 92%;
+    border-radius: 20px;
+    padding: 10px 0px; 
+    background-color: rgba($color: #F7F9F9, $alpha: 1.0);
+    margin-top: 15px;
+    
+    .titulo{
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 10px;
+        padding-left: 25px;
+    }
+    a{
+        color: #64B8F0;
+        text-decoration: none;
+        padding-left: 25px;
+        
+    }
+    a:visited{
+        color: #64B8F0;
+
+    }
+}
+  .listAcontecimentos{
+        font-size: 15px;
+        cursor: pointer;
+        //background-color: blue;
+        padding: 10px 25px;
+        //border: 1px solid green;
+
+        .manchete{
+            font-weight: bold;
+            font-size: 15px;
+            margin: 5px 0px;
+        }
+        .tema{
+            color: red;
+        }
+        .tweets{
+            font-size: 13px;
+            color: gray;
+        }
+    }
+    .listAcontecimentos:hover{
+        background-color: #EFF1F1;
+    }

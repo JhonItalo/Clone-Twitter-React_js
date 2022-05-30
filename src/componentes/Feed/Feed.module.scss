@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.feed{
+    width: 100%;
+    //background-color: green;
+    height: auto;
+    //padding: 10px 15px;
+    padding: 10px 15px;
+    padding-right: 20px;
+    border-bottom: 0.5px solid rgba($color: #DCDCDC, $alpha: 0.4);
+   // margin-bottom: px;
+    h1{
+        font-size: 20px;
+        font-weight: bold;
+    }  
+}
+

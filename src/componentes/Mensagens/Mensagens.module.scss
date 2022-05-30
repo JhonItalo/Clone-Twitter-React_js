@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+.mensagens{
+    background-color: white;
+    z-index: 1;
+    width: 27vw;
+    height: 55px;
+    box-shadow: 0px -1px 5px 0px grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    position: fixed;
+    bottom: 0;
+    right: 10;
+ 
+    p{
+        font-weight: bold;
+        font-size: 20px;
+
+    }
+    .icons{
+       display: flex;
+        gap: 25px;
+        font-size: 20px;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:link:active, a:visited:active {
+            color:black;
+          }
+    }
+    
+}

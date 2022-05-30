@@ -1,0 +1,25 @@
+.postTwitter{
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    padding: 10px 15px;
+    gap: 15px;
+    border-bottom: 0.5px solid rgba($color: #DCDCDC, $alpha: 0.4) ;
+}
+.flex__conteudo{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+.flex__conteudo__user{
+    display: flex;
+    gap: 5px;
+
+}
+.flex__conteudo__icons{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20% ;
+    color: #8B969F;
+    margin-top: 10px;
+}
