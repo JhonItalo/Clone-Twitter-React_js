@@ -4,7 +4,7 @@ $corprincipal: #00acee;
     //background-color: yellow;
     width: 23.5%;
     height: 100vh;
-  // background-color: white;
+    background-color: white;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -13,7 +13,7 @@ $corprincipal: #00acee;
 .centralize__sidebar{
     margin-top: 5px;
     width: 65%;
-   // border: 1px solid hotpink;
+   //border: 1px solid hotpink;
 
         .logo{
             display: flex;
@@ -37,7 +37,7 @@ $corprincipal: #00acee;
             width: 120%;
             display: flex;
             flex-direction: column; 
-            //border: 2px solid blue;
+           // border: 2px solid blue;
             gap: 24px;
             justify-content: start;
             padding-top: 5px;
@@ -137,8 +137,8 @@ $corprincipal: #00acee;
     .mais{
         font-weight: bold;
     }
-/*
-    @media (max-width: 600px) {
+
+    /*@media (max-width: 600px) {
         .sidebar {
         overflow: auto;
         width: 13%;
@@ -175,14 +175,18 @@ $corprincipal: #00acee;
             background-color: black !important;
         }
       }
-      
-      @media (max-width: 1300px){
+      */
+
+      @media (max-width: 1200px){
         .sidebar {
             overflow: auto;
-            width: 10%;
+           // background-color: yellow !important;
+            width: 12%;
             justify-content: end;
             }
             .centralize__sidebar{
+                width: 50% !important;
+                //border: 1px solid orange;
                 margin-top: 0px;
                
                 p{
@@ -195,7 +199,9 @@ $corprincipal: #00acee;
                 height: 50px !important ;
             }
             .navigation{
-                gap: 5px !important;
+                //border: 1px solid green;
+                gap: 3px !important;
+                margin-bottom: 10px !important;
             }
             .navigation__item{
                 width: 45px;
@@ -209,10 +215,26 @@ $corprincipal: #00acee;
                     margin-right: 0px !important;
                 }
             }
-            .centralize__item__btn{
-                background-color: black !important;
+            .navigation__item__remove{
+                display: none;
             }
-      
+            .centralize__item__btn{
+                border-radius: 100% !important;
+                width: 50px !important;
+                height: 50px !important;
+                margin-top: 0px !important;
+                p{
+                    display: none !important;
+                }
+            }
+            .centralize__item__user{
+                width: 50px !important;
+                height: 50px !important;
+                padding: 5px !important;
 
-      }
-     */
+                p{
+                    display: none;
+                }
+            }
+       }
+     

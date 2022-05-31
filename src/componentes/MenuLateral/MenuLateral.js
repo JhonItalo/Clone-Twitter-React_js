@@ -79,14 +79,14 @@ const MenuLateral = ({ page }) => {
                     </li>
 
                     <li >
-                        <Link to='/itenssalvos' className={[styles.navigation__item, (ItensSalvos1 ? styles.itensSalvos : [])].join(' ')}  >
+                        <Link to='/itenssalvos' className={[styles.navigation__item, (ItensSalvos1 ? styles.itensSalvos : []), styles.navigation__item__remove].join(' ')}  >
                             <i className="fa-solid fa-bookmark"></i>
                             <p>Itens salvos</p>
                         </Link>
                     </li>
 
                     <li >
-                        <Link to='/lista' className={[styles.navigation__item, (Lista1 ? styles.lista : [])].join(' ')}>
+                        <Link to='/lista' className={[styles.navigation__item, (Lista1 ? styles.lista : []), styles.navigation__item__remove].join(' ')}>
                             <i className="fa-solid fa-list"></i>
                             <p>Listas</p>
                         </Link>
