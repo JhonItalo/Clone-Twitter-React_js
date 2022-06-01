@@ -138,44 +138,18 @@ $corprincipal: #00acee;
         font-weight: bold;
     }
 
-    /*@media (max-width: 600px) {
+    @media (max-width: 900px) {
         .sidebar {
-        overflow: auto;
-        width: 13%;
-        justify-content: start;
+        width: 12%;
+        justify-content: center !important;
         }
-        .centralize__sidebar{
-            margin-top: 0px;
-            width: 100%;
-            p{
-                display: none !important;
-            }
-        }
-        .logo{
-            margin-bottom: 0px !important;
-            width: 50px !important;
-            height: 50px !important ;
-        }
-        .navigation{
-            gap: 5px !important;
-        }
-        .navigation__item{
-            width: 45px;
-            height: 45px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 10px 0px !important;
-            
-            i{
-                margin-right: 0px !important;
-            }
-        }
+
         .centralize__item__btn{
-            background-color: black !important;
+            margin: 0 !important;
         }
+
       }
-      */
+      
 
       @media (max-width: 1200px){
         .sidebar {
