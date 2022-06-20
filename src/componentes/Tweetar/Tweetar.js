@@ -1,13 +1,13 @@
 //css
 import styles from './Tweetar.module.scss'
-import { useRef } from "react";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import usuario from '../User'
 
 const Tweetar = ({ addPost, posts }) => {
     const inputElement = useRef(null);
 
     const [user, setUser] = useState(usuario);
+    console.log(user)
     const [mensage, setMensage] = useState('');
 
     const BtnFocus = () => {
@@ -26,23 +26,6 @@ const Tweetar = ({ addPost, posts }) => {
         addPost([...posts, newPost]);
         setMensage('');
     }
-
-    /* const AutoTextArea = (e) => {
-         if (e.target.value <= 46) {
-             inputElement.current.rows = '1';
-         }
-         if ((e.target.value > 46) || (inputElement.current.value.length < 92)) {
-             inputElement.current.rows = '2';
-         }
-         if ((e.target.value > 92)) {
-             inputElement.current.rows = '3';
-         }
-         if (e.target.value > 138) {
-             inputElement.current.rows = '4';
-         }
- 
-     }
- */
     const HandleMensage = (e) => {
         setMensage(e.target.value);
     }
@@ -51,7 +34,7 @@ const Tweetar = ({ addPost, posts }) => {
     return (
         <div className={styles.tweetar} onClick={BtnFocus}>
             <div className={styles.tweetar__input}>
-                <img width="48px" height='48px' src={user.img} alt="usuario" title='usuario' />
+                <img width="48px" height='48px' src={user.img} alt="usuario" />
                 <textarea className={styles.tweetar_input_text} name="tweet-txt" id="tweet-txt" cols="1" rows="1" placeholder='O que está acontecendo?' ref={inputElement} maxLength="280" onChange={HandleMensage} value={mensage} style={{ overflow: 'auto', outline: 'none', userSelect: 'text', whitePpace: 'pre-wrap', overflowWrap: 'break-word' }} ></textarea>
             </div>
 

@@ -1,8 +1,9 @@
+import user1 from "../Assets/user1.png"
 
 export const usuario = {
     nome: 'Jhon Italo',
     user: '@jhon_it',
-    img: '/user1.png'
+    img: user1
 }
 
 export const ListAcont = [{
@@ -29,4 +30,5 @@ export const ListAcont = [{
     manchete: 'Zelensky diz estar pronto para conversar;Moscou acusa Kiev de travar diálogo pelo fim do conflito',
     tweets: ''
 }];
+
 export default usuario;

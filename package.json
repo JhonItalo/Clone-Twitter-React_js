@@ -1,6 +1,6 @@
 {
   "name": "twitter",
-  "homePage": "./",
+  "homepage": "https://jhonitalo.github.io/Clone-Twitter-React_js/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "publicar": "npm run build && ./node_modules/.bin/gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -37,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "react-router-dom": "^6.3.0",
     "web-vitals": "^2.1.4"
   }

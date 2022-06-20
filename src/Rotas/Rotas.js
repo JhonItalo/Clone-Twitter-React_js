@@ -35,4 +35,3 @@ const Rotas = () => {
 }
 
 export default Rotas;
-//<Route path="/home" element={<Home />} />
