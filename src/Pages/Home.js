@@ -5,9 +5,11 @@ import Info from '../componentes/Info/Info'
 import { useEffect } from "react";
 
 const Home = ({ pageAtual }) => {
+
     useEffect(() => {
         pageAtual('Home');
-    }, []);
+    });
+
 
     return (
         <>
