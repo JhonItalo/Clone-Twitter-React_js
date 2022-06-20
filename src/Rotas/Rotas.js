@@ -24,7 +24,7 @@ const Rotas = () => {
                 <Route path="/Clone-Twitter-React_js" element={<Home />}>
                     <Route index element={<Home pageAtual={setRotaAtual} />} />
                     <Route path="/explorar" element={<Explorar pageAtual={setRotaAtual} />} />
-                    <Route path="Clone-Twitter-React_js//notificacoes" element={<Notificacoes pageAtual={setRotaAtual} />} />
+                    <Route path="notificacoes" element={<Notificacoes pageAtual={setRotaAtual} />} />
                     <Route path="/mensagens" element={<Mensagens pageAtual={setRotaAtual} />} />
                     <Route path="/itenssalvos" element={<ItensSalvos pageAtual={setRotaAtual} />} />
                     <Route path="/lista" element={<Listas pageAtual={setRotaAtual} />} />
