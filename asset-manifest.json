@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Clone-Twitter-React_js/static/css/main.562ec2ad.css",
+    "main.js": "/Clone-Twitter-React_js/static/js/main.cf0a5024.js",
+    "static/js/787.f649083d.chunk.js": "/Clone-Twitter-React_js/static/js/787.f649083d.chunk.js",
+    "static/media/user4.png": "/Clone-Twitter-React_js/static/media/user4.a8d05b4037cfbf6994bc.png",
+    "static/media/user3.png": "/Clone-Twitter-React_js/static/media/user3.7a32a146ad33441b3513.png",
+    "static/media/user2.png": "/Clone-Twitter-React_js/static/media/user2.41f163ac01379981984d.png",
+    "static/media/user1.png": "/Clone-Twitter-React_js/static/media/user1.eb78faaf8cc634f6b672.png",
+    "static/media/user5.png": "/Clone-Twitter-React_js/static/media/user5.d8ce3daa5718acfca5f0.png",
+    "index.html": "/Clone-Twitter-React_js/index.html",
+    "main.562ec2ad.css.map": "/Clone-Twitter-React_js/static/css/main.562ec2ad.css.map",
+    "main.cf0a5024.js.map": "/Clone-Twitter-React_js/static/js/main.cf0a5024.js.map",
+    "787.f649083d.chunk.js.map": "/Clone-Twitter-React_js/static/js/787.f649083d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.562ec2ad.css",
+    "static/js/main.cf0a5024.js"
+  ]
+}
