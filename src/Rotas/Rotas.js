@@ -21,7 +21,7 @@ const Rotas = () => {
         <BrowserRouter>
             <MenuLateral page={rotaAtual} />
             <Routes>
-                <Route index element={<Home pageAtual={setRotaAtual} />} />
+                <Route patch="/Clone-Twitter-React_js" index element={<Home pageAtual={setRotaAtual} />} />
                 <Route path="/explorar" element={<Explorar pageAtual={setRotaAtual} />} />
                 <Route path="/notificacoes" element={<Notificacoes pageAtual={setRotaAtual} />} />
                 <Route path="/mensagens" element={<Mensagens pageAtual={setRotaAtual} />} />
