@@ -6,8 +6,9 @@ import usuario from '../User'
 const Tweetar = ({ addPost, posts }) => {
     const inputElement = useRef(null);
 
+
+
     const [user, setUser] = useState(usuario);
-    console.log(user)
     const [mensage, setMensage] = useState('');
 
     const BtnFocus = () => {
@@ -28,8 +29,16 @@ const Tweetar = ({ addPost, posts }) => {
     }
     const HandleMensage = (e) => {
         setMensage(e.target.value);
-    }
+        if (inputElement.current.scrollTop > 0) {
 
+            inputElement.current.rows += 3
+            inputElement.current.cols += 3
+        }
+        if (e.target.value === "") {
+            inputElement.current.rows = 1
+            inputElement.current.cols = 1
+        }
+    }
 
     return (
         <div className={styles.tweetar} onClick={BtnFocus}>
