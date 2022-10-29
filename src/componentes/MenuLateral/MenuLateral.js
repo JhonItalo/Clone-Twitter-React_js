@@ -47,59 +47,59 @@ const MenuLateral = ({ page }) => {
     return (
         <header className={styles.sidebar}>
             <div className={styles.centralize__sidebar}>
-                <Link to='/Clone-Twitter-React_js' className={styles.logo}>
+                <Link to='/' className={styles.logo}>
                     <i className={"fa-brands fa-twitter logo"}></i>
                 </Link>
 
                 <ul className={styles.navigation}>
                     <li >
-                        <Link to='/Clone-Twitter-React_js' className={[styles.navigation__item, (Home1 ? styles.home : [])].join(' ')} > <i className="fa-solid fa-house"></i>
+                        <Link to='/' className={[styles.navigation__item, (Home1 ? styles.home : [])].join(' ')} > <i className="fa-solid fa-house"></i>
                             <p>Página Inicial</p></Link>
                     </li>
 
                     <li >
-                        <Link to='/Clone-Twitter-React_js/explorar' className={[styles.navigation__item, (Explorar1 ? styles.explorar : [])].join(' ')}>
+                        <Link to='/explorar' className={[styles.navigation__item, (Explorar1 ? styles.explorar : [])].join(' ')}>
                             <i className="fa-solid fa-hashtag"></i>
                             <p>Explorar</p>
                         </Link>
                     </li>
 
                     <li >
-                        <Link to='/Clone-Twitter-React_js/notificacoes' className={[styles.navigation__item, (Notificacoes1 ? styles.notificacoes : [])].join(' ')}>
+                        <Link to='/notificacoes' className={[styles.navigation__item, (Notificacoes1 ? styles.notificacoes : [])].join(' ')}>
                             <i className="fa-solid fa-bell"></i>
                             <p>Notificações</p>
                         </Link>
                     </li>
 
                     <li >
-                        <Link to='/Clone-Twitter-React_js/mensagens' className={[styles.navigation__item, (Mensagens1 ? styles.mensagens : [])].join(' ')}  >
+                        <Link to='/mensagens' className={[styles.navigation__item, (Mensagens1 ? styles.mensagens : [])].join(' ')}  >
                             <i className="fa-solid fa-envelope"></i>
                             <p>Mensagens</p>
                         </Link>
                     </li>
 
                     <li >
-                        <Link to='/Clone-Twitter-React_js/itenssalvos' className={[styles.navigation__item, (ItensSalvos1 ? styles.itensSalvos : []), styles.navigation__item__remove].join(' ')}  >
+                        <Link to='/itenssalvos' className={[styles.navigation__item, (ItensSalvos1 ? styles.itensSalvos : []), styles.navigation__item__remove].join(' ')}  >
                             <i className="fa-solid fa-bookmark"></i>
                             <p>Itens salvos</p>
                         </Link>
                     </li>
 
                     <li >
-                        <Link to='/Clone-Twitter-React_js/lista' className={[styles.navigation__item, (Lista1 ? styles.lista : []), styles.navigation__item__remove].join(' ')}>
+                        <Link to='/lista' className={[styles.navigation__item, (Lista1 ? styles.lista : []), styles.navigation__item__remove].join(' ')}>
                             <i className="fa-solid fa-list"></i>
                             <p>Listas</p>
                         </Link>
                     </li>
 
                     <li >
-                        <Link to='/Clone-Twitter-React_js/perfil' className={[styles.navigation__item, (Perfil1 ? styles.perfil : [])].join(' ')}>
+                        <Link to='/perfil' className={[styles.navigation__item, (Perfil1 ? styles.perfil : [])].join(' ')}>
                             <i className="fa-solid fa-user"></i><p>Perfil</p>
                         </Link>
                     </li>
 
                     <li >
-                        <Link to='/Clone-Twitter-React_js/mais' className={[styles.navigation__item, (Mais1 ? styles.mais : [])].join(' ')}>
+                        <Link to='/mais' className={[styles.navigation__item, (Mais1 ? styles.mais : [])].join(' ')}>
                             <i className="fa-solid fa-circle-chevron-down"></i><p>Mais</p>
                         </Link>
                     </li>
