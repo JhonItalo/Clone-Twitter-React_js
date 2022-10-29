@@ -1,6 +1,6 @@
 //css
 import styles from './Tweetar.module.scss'
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 import usuario from '../User'
 
 const Tweetar = ({ addPost, posts }) => {
@@ -8,7 +8,7 @@ const Tweetar = ({ addPost, posts }) => {
 
 
 
-    const [user, setUser] = useState(usuario);
+    const [user] = useState(usuario);
     const [mensage, setMensage] = useState('');
 
     const BtnFocus = () => {
